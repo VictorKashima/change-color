@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 22.5rem;
+    padding: 5rem 0;
+}
+
+.logo {
+    padding: 3rem;
+    width: 100%;
+}
