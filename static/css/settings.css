@@ -2,12 +2,30 @@
     position: fixed;
     top: 0;
     text-align: center;
-    background: #000;
+    background: #FFF;
     padding: .5rem 2rem;
     border-radius: .5rem;
-    border: 2px solid aqua;
+    border: 2px solid #CCC;
+    color: #000;
 }
 
 .settings > p {
     margin-bottom: .5rem;
+}
+
+.colors {
+    display: flex;
+    gap: 2rem;
+}
+
+.color-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-input input {
+    border: none;
+    background-color: inherit;
+    height: 3rem;
 }
