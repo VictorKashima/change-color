@@ -49,3 +49,27 @@ button:hover {
 .third-background {
     background: #1f1f1f;
 }
+
+@media screen and (max-width:1024px) {
+
+    html {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    html {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+    html {
+        font-size: 12px;
+    }
+
+}
